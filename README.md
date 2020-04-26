@@ -2,7 +2,7 @@
 ## Introduciton 
 Code for an in-class kaggle competition for Deep Learning and Applications at HEC Montreal. See: https://www.kaggle.com/c/hecmontrealdeeplearningcourse
 
-This competition consider scientific papers from different domains. The goal is to predict the domain of test papers based on their titles and their references.
+This competition consider scientific papers from different domains. The goal is to predict the domain of test papers based on their titles.
 
 ## Dataset 
 The dataset is constructed from the DBLP database, where collects a set of papers from five different research domains (i.e., machine learning, natural language processing, data mining, database, programming language). The goal is to predict the categories of papers. We have provided several files, and below is a description.
@@ -12,8 +12,6 @@ The dataset is constructed from the DBLP database, where collects a set of paper
 2. test.csv. This file provides the paper ids for evaluation.
 
 3. text.csv. This file provides the title of each paper, which allows you to do prediction based on those titles.
-
-4. reference.csv. This file provides the references of each paper. Each line contains two ids, i.e., id_1, id_2, meaning that the paper id_1 cites the paper id_2.
 
 ## Model and result 
 In this project, I used 2 state-of-art models to implement mutil-class-text-classification task. The model name and performance can be seen from follows: 
