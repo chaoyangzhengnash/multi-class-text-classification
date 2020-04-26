@@ -14,7 +14,7 @@ The dataset is constructed from the DBLP database, where collects a set of paper
 3. text.csv. This file provides the title of each paper, which allows you to do prediction based on those titles.
 
 ## Model and result 
-In this project, I used 2 state-of-art models to implement mutil-class-text-classification task. The model name and performance can be seen from follows: 
+In this project, I used 2 state-of-art models to implement mutil-class-text-classification task. The selected models and performance can be seen from follows: 
 
 1. An attendtion based recurrent neural network (RNN) with multiple bidirectional LSTM layers. 70.8% accuracy in the test data.
 
